@@ -1,0 +1,17 @@
+/* Import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Roboto&family=Sofia&display=swap');
+
+/* Utilities */
+:root{
+    --light-gray:#2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #2b303218;
+    --text-color:#ff686b;
+    --roboto:font-family: 'Roboto', sans-serif;
+    --sofia:font-family: 'Sofia', cursive;
+    --gugi:font-family: 'Gugi', cursive;
+}
+
+.primary-color{
+    color: var(--primary-color);
+}

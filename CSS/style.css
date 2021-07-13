@@ -7,11 +7,52 @@
     --primary-color: #45ccb8;
     --border: #2b303218;
     --text-color:#ff686b;
-    --roboto:font-family: 'Roboto', sans-serif;
-    --sofia:font-family: 'Sofia', cursive;
-    --gugi:font-family: 'Gugi', cursive;
+    --roboto:'Roboto', sans-serif;
+    --sofia:'Sofia', cursive;
+    --gugi:'Gugi', cursive;
 }
 
 .primary-color{
     color: var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.lightblue{
+    color: lightblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    background-color: var(--primary-color);
+    font-family: var(--roboto);
+}
+
+header .site-title{
+    font-family: var(--gugi);
+}
+
+.dropdown-menu,
+.dropdown-toggle{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9rem;
+    color: #fff;
+
 }

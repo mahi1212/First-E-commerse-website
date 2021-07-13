@@ -71,3 +71,18 @@ header .site-title{
 .navbar-nav .basket-icon{
     margin-right: 6.5rem;
 }
+
+/* main */
+
+.carousel-item img{
+    height: 650px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    color: rgb(164, 236, 164);
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: rgb(148, 17, 209);
+}
+

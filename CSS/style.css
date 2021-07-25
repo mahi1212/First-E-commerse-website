@@ -72,6 +72,10 @@ header .site-title{
     margin-right: 6.5rem;
 }
 
+.navbar-nav .fas{
+    cursor: pointer;
+}
+
 /* main */
 
 .carousel-item img{

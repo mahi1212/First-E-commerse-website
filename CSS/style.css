@@ -28,6 +28,7 @@
     font-family: var(--roboto);
 }
 
+
 .lightblue{
     color: lightblue;
 }
@@ -90,3 +91,20 @@ header .site-title{
     background-color: rgb(148, 17, 209);
 }
 
+/* main starts here */
+.heading{
+    text-align: center;
+    font-family: var(--sofia);
+    font-size: 3rem;
+}
+
+.card{
+    height: 480px;
+    margin: 10px 0;
+}
+
+.card img{
+    height: 240px;
+    cursor: pointer;
+
+}

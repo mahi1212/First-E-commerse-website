@@ -27,10 +27,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 text-center">
+                <div class="col-md-4 col-sm-12 text-center">
                     <h2 class="my-md-3 site-title text-white">Online Store</h2>
                 </div>
-                <div class="col-md-4 col-12 text-end">
+                <div class="col-md-4 col-sm-12 text-end">
                     <p class="my-md-4 header-links">
                         <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="far fa-user-circle fa-3x"></i></a>
                     </p>
@@ -75,7 +75,7 @@
     <!-- Main starts here -->
     <main>
         <!-- Carousel Slider starts -->
-        <section class="caro">
+        <section class="caro mb-5">
             <div id="carouselExampleDark" class="carousel carousel-dark slide container" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -96,12 +96,12 @@
                             <div class="offcanvas-body">
                                 <form action="mailto:mahi121.mr@gmail.com">
                                     <div class="form-floating mb-3">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name">
+                                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name" required>
                                         <label for="floatingInput">Username</label>
                                     </div>
                                     
                                     <div class="form-floating mb-3">
-                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                         <label for="floatingInput">Email</label>
                                     </div>
                                     <div class="form-floating">
@@ -110,12 +110,17 @@
                                     </div>
                                     
                                     <select class="form-select form-select-sm mt-3" aria-label=".form-select-sm example">
-                                        <option selected>Select gender</option>
-                                        <option value="1">Male</option>
-                                        <option value="2">Female</option>
+                                        <option selected>Select Hometown</option>
+                                        <option value="1">Sylhet</option>
+                                        <option value="2">Dhaka</option>
+                                        <option value="3">Rajshahi</option>
+                                        <option value="4">Chittagong</option>
+                                        <option value="5">Khulna</option>
+                                        <option value="6">Barishal</option>
+                                        <option value="7">Rangpur</option>
                                     </select>
                                     <div class="mt-4">
-                                        <button type="reset" class="btn btn-outline-danger">Remove Details</button>
+                                        <button type="reset" class="btn btn-outline-danger">Remove</button>
                                         <button type="submit" class="btn btn-success">Submit</button>
                                     </div>
 
@@ -128,15 +133,13 @@
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="assests/pro-2.jpg" class="d-block w-100" alt="b">
                         <div class="carousel-caption d-none d-md-block mb-3">
-                            <h5 class="text-center text-success bg-warning p-3 rounded-pill text-uppercase">Good Product, Good Mood</h5>
-                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" class="btn btn-warning btn-lg rounded-end fs-4">Join Today</button>
+                            <h5 class="text-center text-success bg-warning p-3 rounded-pill text-uppercase">Find the best, Take a rest</h5>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="assests/pro-3.jpg" class="d-block w-100" alt="c">
                         <div class="carousel-caption d-none d-md-block mb-3">
-                            <h5 class="text-center text-white bg-success p-3 rounded-pill text-uppercase">Good Product, Good Mood</h5>
-                            <a class="btn btn-success btn-lg rounded-end fs-4">Join Today</a>
+                            <h5 class="text-center text-white bg-dark p-3 rounded-pill text-uppercase">Good Product, Good Mood</h5>
                         </div>
                     </div>
                 </div>
@@ -151,9 +154,108 @@
             </div>
         </section>
         <!-- Featured Items Starts-->
-        <section id="featured">
-
-
+        <section id="featured" class="container">
+            <div class="heading text-capitalize my-4">
+                Featured Products
+            </div>
+            <div class="row gx-lg-3 gx-sm-1 mt-4">
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-7.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Gaming keyboard</h5>
+                            <p class="card-text">Super cool looks always matters! This black keyboard works cool as it looks like. Mx-99 is the best choice of gamers and you can add beklit LED in this keyboard!</p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-secondary d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-2.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Plextone G-800</h5>
+                            <p class="card-text">This headset made peoples crazy because of it's sound quality. It is a over ear headset which resist the sound from outside.It has good flexibility which you'll love most.</p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-outline-success d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-3.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Airbud-Oneplus Z</h5>
+                            <p class="card-text">AirPods Pro are sweat and water resistant for non-water sports and exercise. Sweat and water resistance are not permanent conditions and resistance might decrease as a result of normal wear. </p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-outline-success d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-4.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Plextone G50</h5>
+                            <p class="card-text">WIDE APPLICATIONS: The Extension cord, Desktop Adapter and Mic, the sport earphone can not only worked with the most common cellphone like iPhone, Samsung, iPad and Google.</p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-outline-success d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-5.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Core-i3 PC</h5>
+                            <p class="card-text">Desktop PC has Intel core i3 7th generation processor, MSI / Gigabyte main board, 1TB desktop HDD, 4GB RAM, ATX casing box, 19 inch LED desktop monitor, Standard Keyboard, Standard optical mouse.</p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-outline-success d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-6.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Bluetooth Speakers</h5>
+                            <p class="card-text">Superior Sound Quality: Enjoy your music in 12W full-bodied stereo realized through dual high-performance drivers and unique enhanced bass.</p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-outline-success d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-1.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Airpod</h5>
+                            <p class="card-text">This is a brand new product. It has a good sound quality and have high quality base inside it. To make better we added rm-544 amplifire in it! Super cool looks makes it more gorgeous.</p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-outline-success d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+                <div class="col-md-6 col-lg-3 col-12">
+                    <div class="card">
+                        <img src="assests/fet-8.jpg" class="card-img-top img-fluid" alt="featured Products">
+                        <div class="card-body">
+                            <h5 class="card-title">Havit HV-MS1012A Mouse</h5>
+                            <p class="card-text">This mouse comes with Anti-slipping surface for optimal grip and it Fits perfectly into the palm for a good grip. This mouse has 16-million colourful breathing light effects  forward buttons.</p>
+                        </div>
+                        <div class="card-last">
+                            <a href="#" class="btn btn-outline-success d-block border-0 " >Buy Now</a>
+                        </div>
+                    </div>               
+                </div>
+            </div>
         </section>
 
     </main>

@@ -5,7 +5,6 @@
 :root{
     --light-gray:#2b3032a1;
     --primary-color: #45ccb8;
-    --border: #2b303218;
     --text-color:#ff686b;
     --roboto:'Roboto', sans-serif;
     --sofia:'Sofia', cursive;
@@ -99,18 +98,17 @@ header .site-title{
 }
 
 .card{
-    height: 480px;
+    height: 345px;
     margin: 10px 0;
     font-family: var(--roboto);
-    transition: all 0.2s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
 }
 
 .card:hover{
-    transform: scale(1.05);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
 }
 
-
 .card img{
-    height: 240px;
-    cursor: pointer;
+    height: 150px;
 }

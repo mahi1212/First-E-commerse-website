@@ -101,10 +101,16 @@ header .site-title{
 .card{
     height: 480px;
     margin: 10px 0;
+    font-family: var(--roboto);
+    transition: all 0.2s linear;
 }
+
+.card:hover{
+    transform: scale(1.05);
+}
+
 
 .card img{
     height: 240px;
     cursor: pointer;
-
 }

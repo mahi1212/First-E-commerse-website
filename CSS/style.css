@@ -121,6 +121,8 @@ header .site-title{
 
 #catagories img:hover{
     transform: scale(1.2);
+    transition: all 0.5s linear;
+    cursor: pointer;
 }
 
 .left img{

@@ -156,3 +156,7 @@ header .site-title{
     width: 250px;
     cursor: pointer;
 }
+
+i{
+    cursor: pointer;
+}

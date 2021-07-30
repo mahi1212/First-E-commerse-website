@@ -112,3 +112,24 @@ header .site-title{
 .card img{
     height: 150px;
 }
+
+/* Catagorilist */
+
+
+
+.left img{
+    height: 100vh;
+}
+
+.right-top img{
+    height: 40vh;
+}
+
+.right-bottom img{
+    height: 30vh;
+}
+
+.right-bottom-right img{
+    height: 60vh;
+    width: 100%;
+}

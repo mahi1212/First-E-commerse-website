@@ -115,7 +115,13 @@ header .site-title{
 
 /* Catagorilist */
 
+#catagories .box{
+    overflow: hidden;
+}
 
+#catagories img:hover{
+    transform: scale(1.2);
+}
 
 .left img{
     height: 100vh;
